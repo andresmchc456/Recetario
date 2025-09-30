@@ -1,0 +1,35 @@
+<div class="container d-flex align-items-center justify-content-center min-vh-100">
+  <div class="card card-custom shadow-lg p-4" style="max-width: 400px; width: 100%;">
+    <div class="card-body">
+      <h3 class="text-center mb-4">Iniciar Sesión</h3>
+      <form id="formLogin">
+        <!-- Usuario -->
+        <div class="mb-3">
+          <label for="usuario" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="usuario" placeholder="ejemplo@correo.com" required>
+        </div>
+        <!-- Contraseña -->
+        <div class="mb-3">
+          <label for="clave" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="clave" placeholder="********" required>
+        </div>
+        <!-- Recordarme -->
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="remember">
+          <label class="form-check-label text-white" for="remember">Recordarme</label>
+        </div>
+        <!-- Error -->
+        <div id="loginError" class="alert alert-danger d-none">
+          Usuario o contraseña incorrectos.
+        </div>
+        <!-- Botón -->
+        <div class="d-grid">
+          <button type="submit" class="btn btn-custom">Ingresar</button>
+        </div>
+      </form>
+      <div class="text-center mt-3">
+        <a href="#" class="text-decoration-none text-warning">¿Olvidaste tu contraseña?</a>
+      </div>
+    </div>
+  </div>
+</div>

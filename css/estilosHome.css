@@ -1,0 +1,83 @@
+/* === Search Bar === */
+.searchbar-container {
+  background-color: #212529; /* bg-dark */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar {
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-input {
+  border: 2px solid #ec7813;
+  border-left: none;
+  background-color: #212529;
+  color: white;
+}
+
+.search-input::placeholder {
+  color: #bbb;
+}
+
+.input-group-text {
+  background-color: #212529;
+  border: 2px solid #ec7813;
+  border-right: none;
+  color: #ec7813;
+}
+
+.input-group-text,
+.search-input {
+  border-radius: 8px;
+}
+
+
+/*cards estilos*/
+/* === Cards === */
+.card {
+  background-color: #212529; /* Fondo oscuro */
+  color: white;               /* Texto blanco */
+  border: 2px solid #ec7813; /* Borde naranja */
+  border-radius: 12px;        /* Bordes redondeados */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect para las cards */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(236, 120, 19, 0.5);
+  cursor: pointer;
+}
+
+/* Títulos y descripciones dentro de la card */
+.card-body h5,
+.card-body p {
+  color: white; /* Texto blanco */
+}
+
+/* === Botones personalizados === */
+.btn-custom {
+  background-color: #212529;  /* Fondo oscuro */
+  color: white;               /* Texto blanco */
+  border: 2px solid #ec7813; /* Borde naranja */
+  transition: all 0.3s ease;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Hover para botones */
+.btn-custom:hover {
+  background-color: #ec7813; /* Fondo naranja */
+  color: #212529;            /* Texto oscuro */
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(236, 120, 19, 0.5);
+  border-color: #ec7813;
+  cursor: pointer;
+}
+
+

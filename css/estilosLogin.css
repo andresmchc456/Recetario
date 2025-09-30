@@ -1,0 +1,30 @@
+/* Estilos personalizados para el login */
+.card-custom {
+  border: 2px solid #ec7813; /* borde card */
+  background-color: #212529; /* fondo oscuro */
+  color: white;
+}
+
+.card-custom .form-control {
+  border: 1px solid #ec7813; /* borde inputs */
+  background-color: transparent;
+  color: white;
+}
+
+.card-custom .form-control::placeholder {
+  color: #bbb; /* placeholder gris claro */
+}
+
+.card-custom .form-label {
+  color: white;
+}
+
+.form-check-label {
+  color: white;
+}
+
+.btn-custom {
+  background-color: #ec7813 !important;
+  border: none !important;
+  color: white !important;
+}
