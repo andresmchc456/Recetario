@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     cargarModulo("../inc/navbar.html", "barraNavegacion");
     cargarModulo("../inc/searchBar.html", "searchContainer");
     cargarModulo("../vistas/recetasPopulares.html", "recetasPopulares");
+    cargarModulo("../vistas/categoriaRecetas.html", "categoriaRecetas");
   }
 
 });
