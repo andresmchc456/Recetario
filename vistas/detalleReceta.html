@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Detalle receta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="../img/frito.png">
+    <link rel="stylesheet" href="../css/estilosHome.css">
+
+</head>
+
+<body class="bg-[#1a1a1a] text-white font-sans">
+
+<header class="flex items-center justify-between border-b border-[#ec7813]/40 px-10 py-4">
+    <h1 class="text-2xl font-bold text-[#ec7813]">Cookbook Corner</h1>
+</header>
+
+<main class="max-w-4xl mx-auto px-6 py-10">
+
+    <h2 id="tituloReceta" class="text-4xl font-bold mb-6"></h2>
+
+    <div class="flex justify-center mb-8">
+        <img id="imagenReceta" class="rounded-lg shadow-lg w-full max-w-xl">
+    </div>
+
+    <p id="descripcionReceta" class="text-gray-300 text-lg mb-6"></p>
+
+    <h3 class="text-2xl font-bold mb-3">Ingredientes</h3>
+    <ul id="ingredientesReceta" class="list-disc list-inside text-gray-300 mb-6"></ul>
+
+    <h3 class="text-2xl font-bold mb-3">Pasos</h3>
+    <ol id="pasosReceta" class="list-decimal list-inside text-gray-300 space-y-2 mb-9"></ol>
+
+    <a href="home.html" class="btn-custom">Volver</a>
+
+
+</main>
+
+<script src="../js/detalleReceta.js"></script>
+</body>
+</html>
