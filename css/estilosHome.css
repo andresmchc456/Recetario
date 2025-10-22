@@ -95,3 +95,13 @@
 a:hover .category-img {
   transform: scale(1.06);
 }
+
+
+.category-card {
+  text-align: center;
+}
+
+.category-card img {
+  display: block;
+  margin: 0 auto;
+}
