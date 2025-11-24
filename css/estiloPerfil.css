@@ -1,0 +1,59 @@
+/* Card estilo Home */
+.card-perfil {
+  background-color: #212529;
+  border: 2px solid #ec7813;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 650px;
+  margin: 0 auto;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Espaciado interno */
+.section {
+  margin-bottom: 1.5rem;
+}
+
+/* Foto */
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ec7813;
+}
+
+/* Titulos */
+.card-perfil h4,
+.card-perfil h5 {
+  color: #ffffff;
+}
+
+/* Separadores */
+.card-perfil hr {
+  border-color: #555;
+}
+
+/* Botón estilo Home */
+.btn-custom {
+  background-color: #212529;
+  color: white;
+  border: 2px solid #ec7813;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #ec7813;
+  color: #212529;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(236, 120, 19, 0.5);
+}
+
+body {
+      background-color: #1d1f21; /* Fondo negro del Home */
+      font-family: "Poppins", sans-serif;
+}
