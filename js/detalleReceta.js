@@ -67,7 +67,19 @@ const recetasInfo = {
       "Agrega los condimentos y rodajas de limón.",
       "Hornea por 15-20 minutos y sirve."
     ]
-  }
+  },
+   desayuno: {
+    titulo: "Pasta Italiana Artesanal",
+    imagen: "../img/pasta.jpg",
+    descripcion: "Una pasta cremosa al mejor estilo italiano, rápida y deliciosa.",
+    ingredientes: ["Pasta", "Tomate", "Albahaca", "Queso Parmesano", "Sal", "Aceite de oliva"],
+    pasos: [
+      "Hierve la pasta con sal hasta que esté al dente.",
+      "Prepara una salsa con tomate, ajo y albahaca.",
+      "Mezcla la pasta con la salsa en la sartén.",
+      "Agrega queso parmesano y sirve caliente."
+    ]
+  },
 };
 
 // Insertar datos en el HTML
